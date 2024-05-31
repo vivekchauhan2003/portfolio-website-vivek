@@ -1,11 +1,11 @@
 function downloadDocument() {
 
     // var documentUrl = 'Internshala_Resume_Guide.pdf';
-    var documentUrl = 'Vivek_Chauhan_Resume.pdf';
+    var documentUrl = 'vive_chauhan_resume_cv.pdf';
     var downloadLink = document.createElement('a');
     downloadLink.href = documentUrl;
     // downloadLink.download = 'Internshala_Resume_Guide.pdf';
-    downloadLink.download = 'Vivek_Chauhan_Resume.pdf';
+    downloadLink.download = 'vive_chauhan_resume_cv.pdf';
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);
